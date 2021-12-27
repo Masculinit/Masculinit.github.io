@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* sy3-4 */
+table,caption{
+    text-align: center;
+}
+table,th,td{
+    border-width:thin;
+    border-color: black;
+    border-style: solid;
+    padding: auto;
+}
+table{
+    border-collapse: collapse;
+    background: #fbfbfb;
+    font-size: 40px;
+    font-family: "宋体";
+    margin: auto;
+}
+th{
+    background-color: #328AA4;
+    color:#fff;
+}
+tr{
+    background-color:#E5F1F4;
+}
+table tr:nth-child(even){
+    /* 交替显示行标颜色 偶数匹配*/
+    background-color: #FDFBCC;
+}
+

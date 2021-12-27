@@ -1,0 +1,125 @@
+/* --------------------sy3-1---------------------- */
+h2[title="red"]{
+    text-align: center;
+    color: red;
+}
+h4[title="green"]{
+    text-align: left;
+    color: green;
+}
+.body{
+    color: black;
+    line-height: 20px;
+    text-indent: 2em;
+}
+
+
+
+/* --------------------sy3-2---------------------- */
+.content_main{
+    background-color: #F3F1E9;
+    font-family: "宋体";
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 24px;
+}
+.content_main img{
+    float: right;
+    border: 1px black solid;
+    margin: 20px 10px;
+    margin-top: 30px;
+}
+
+
+
+
+/* --------------------sy3-3---------------------- */
+.text ul{
+    list-style: none;
+}
+.text li{
+    float: left;
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    margin-left: 3px;
+    line-height: 30px;
+}
+.text a{
+    display: block;
+}
+.text a:link{
+    color:#666;
+    background: #ccc;;
+    text-decoration: none;
+}
+.text a:visited{
+    /* 看到的情况 */
+    color: cyan;
+    text-decoration: underline;
+}
+.text a:hover{     
+    /* 鼠标悬浮设置 */
+    color: darkorchid;   
+    background:#f00;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+/* --------------------sy3-4---------------------- */
+table,caption{
+    text-align: center;
+}
+table,th,td{
+    border-width:thin;
+    border-color: black;
+    border-style: solid;
+    padding: auto;
+}
+table{
+    border-collapse: collapse;
+    background: #fbfbfb;
+    font-size: 40px;
+    font-family: "宋体";
+    margin: auto;
+}
+th{
+    background-color: #328AA4;
+    color:#fff;
+}
+tr{
+    background-color:#E5F1F4;
+}
+table tr:nth-child(even){
+    /* 交替显示行标颜色 偶数匹配*/
+    background-color: #FDFBCC;
+}
+
+
+/* --------------------sy3-5---------------------- */
+form.form{
+    display:table ;
+    border: lightblue dashed 2px;
+    background-color: lightcyan;
+    margin: 80px auto;
+    padding: 30px;
+    text-align: center;
+}
+label,input{
+    margin: auto;
+}
+label{
+    padding: auto;
+}
+h2.text{
+    font-weight: bold;
+    padding-top: 0;
+    text-align: center;
+    font-family: "宋体";
+}
+hr{
+    width: 300px;
+    margin: 10px;
+}
