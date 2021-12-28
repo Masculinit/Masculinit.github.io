@@ -1,0 +1,14 @@
+/* --------------------sy3-2---------------------- */
+.content_main{
+    background-color: #F3F1E9;
+    font-family: "宋体";
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 24px;
+}
+.content_main img{
+    float: right;
+    border: 1px black solid;
+    margin: 20px 10px;
+    margin-top: 30px;
+}

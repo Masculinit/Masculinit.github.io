@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* --------------------sy3-3---------------------- */
+.text ul{
+    list-style: none;
+}
+.text li{
+    float: left;
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    margin-left: 3px;
+    line-height: 30px;
+}
+.text a{
+    display: block;
+}
+.text a:link{
+    color:#666;
+    background: #ccc;;
+    text-decoration: none;
+}
+.text a:visited{
+    /* 看到的情况 */
+    color: cyan;
+    text-decoration: underline;
+}
+.text a:hover{     
+    /* 鼠标悬浮设置 */
+    color: darkorchid;   
+    background:#f00;
+    font-weight: bold;
+    text-decoration: underline;
+}
+

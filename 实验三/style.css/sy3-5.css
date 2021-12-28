@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* sy3-5 */
+form.form{
+    display:table ;
+    border: lightblue dashed 2px;
+    background-color: lightcyan;
+    margin: 80px auto;
+    padding: 30px;
+    text-align: center;
+}
+label,input{
+    margin: auto;
+}
+label{
+    padding: auto;
+}
+h2.text{
+    font-weight: bold;
+    padding-top: 0;
+    text-align: center;
+    font-family: "宋体";
+}
+hr{
+    width: 300px;
+    margin: 10px;
+}
